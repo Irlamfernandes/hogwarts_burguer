@@ -1,0 +1,111 @@
+body{background: linear-gradient(90deg,#140D28,#191970);}
+
+.casas{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+    margin: 1%;}
+
+.casas img{border: solid;
+    border-radius:10%;}
+
+h1{color: white;
+    font-size: 300%;
+    text-align: center;}
+
+h2{color: white;
+    font-size: 250%;
+    text-align: center;}
+
+h3{color: white;
+    font-size: 200%;
+    text-align: center;}
+
+h4{color: white;
+    font-size: 180%;
+    text-align: center;}
+
+p{color: white;
+    font-size: 150%;
+    text-align: center;}
+
+nav{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 140%;}
+
+a{text-decoration: none;
+    color: white;}
+
+.hamburguers:hover{background: linear-gradient(#0e1a40, #222f5b);
+    transform: scale(1.1);
+    transition: transform 1s ease;}
+
+.contato:hover{background: linear-gradient(#ae0001, #eeba30);
+    transform: scale(1.1);
+    transition: transform 1s ease;}
+
+.local:hover{background: linear-gradient(#ecb939, #372e29);
+    transform: scale(1.1);
+    transition: transform 1s ease;}
+
+.parceiros:hover{background: linear-gradient(#1a472a, #2a623d);
+    transform: scale(1.1);
+    transition: transform 1s ease;}
+
+#contato img:hover{ transform: scale(1.1);
+        transition: transform 1s;}
+
+#contato{text-align: center;
+    padding: 5%;}
+
+footer{background-color: black;
+    border-radius: 10%;
+    text-align: center;
+    color: white;
+    padding: 1%;}
+
+footer a:hover{color: green;}
+
+#parceiros{text-align: center;
+    padding: 5%;
+    margin: 1%;}
+
+#parceiros a{padding: 10%;}
+
+#parceiros img:hover{ transform: scale(1.1);
+    transition: transform 1s;}
+
+#parceiros img{border-radius: 100%;}
+
+summary{list-style: none;
+    cursor: pointer;}
+
+.bovina, .mar, .aves, .vegetal, .doces{display: flex;
+    justify-content: space-around;}
+
+.quadro{border: solid;}
+
+.bovina img, .mar img, .aves img, .vegetal img, .doces img{border: solid;}
+
+.img {display: flex;
+    justify-content: center;}
+
+.bovina{background: linear-gradient(#ae0001, #eeba30);}
+
+.mar{background: linear-gradient(#1a472a, #2a623d);}
+
+.aves{background: linear-gradient(#0e1a40, #222f5b);}
+
+.vegetal{background: linear-gradient(#ecb939, #372e29);}
+
+#produtos img:hover{transform: scale(1.2);
+    transition: transform 1s ease;}
+
+@media only screen and (max-width:750px){
+    #parceiros a{display: block;
+        justify-content: center;}
+
+    .bovina, .mar, .aves, .vegetal, .doces{display: block;
+    justify-content: center;}
+}
