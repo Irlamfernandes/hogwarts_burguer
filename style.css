@@ -108,4 +108,14 @@ summary{list-style: none;
 
     .bovina, .mar, .aves, .vegetal, .doces{display: block;
     justify-content: center;}
+
+    nav{display: grid;
+        grid-template-columns: repeat(2, auto);}
+
+    #contato img{width: 10%;}
+
+    #parceiros img{width: 30%;}
+
+    footer h4{font-size: 140%;}
+    footer p{font-size: 100%;}
 }
